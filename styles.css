@@ -1,0 +1,168 @@
+.container {
+  display: flex;
+  box-shadow: 0px 0px 12px rgba(0.5, 0.5, 0.5, 0.5);
+  margin: 10px;
+  height: 80vh;
+  margin-top: 5%;
+}
+.container1 {
+  display: flex;
+  box-shadow: 0px 0px 12px rgba(0.5, 0.5, 0.5, 0.5);
+  margin: 10px;
+  height: 100vh;
+  margin-top: 5%;
+}
+
+.container2 {
+  display: flex;
+  box-shadow: 0px 0px 12px rgba(0.5, 0.5, 0.5, 0.5);
+  margin: 10px;
+  height: 200vh;
+  margin-top: 5%;
+}
+
+.left-box {
+  width: 40%;
+  background-color: black;
+  padding: 20px;
+}
+
+.right-box {
+  width: 60%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 200vh;
+}
+
+.profile-photo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  border: 2px solid #ccc;
+}
+.bio{
+  width: 300px;
+  height: 150px;
+
+}
+
+.doc{
+  width: 300px;
+  height: 350px;
+
+}
+
+.bat{
+  width: 300px;
+  height: 150px;
+
+}
+
+nav {
+  background-color: black;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: rgb(222, 221, 220);
+  font-weight: 500;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 800;
+}
+.headline {
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subhead {
+  font-size: 18px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subhead1 {
+  font-size: 28px;
+  background-color: #f8f8f8;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subhead2 {
+  font-size: 28px;
+  background-color: #f8f8f8;
+  position: relative;
+  right: 190px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subhead3 {
+  font-size: 28px;
+  background-color: #f8f8f8;
+  position: relative;
+  right: 90px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subhead4 {
+  font-size: 28px;
+  background-color: #f8f8f8;
+  position: relative;
+  right: 170px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subhead5 {
+  font-size: 28px;
+  background-color: #f8f8f8;
+  position: relative;
+  right: 130px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+.content {
+  text-align: center;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 16px;
+  
+  color: rgb(222, 221, 220);
+}
